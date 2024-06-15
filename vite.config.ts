@@ -9,7 +9,7 @@ export default defineConfig({
 	},
 	resolve: {
 		alias: {
-			"wbf-components": 
+			"wbf-components": path.resolve(process.cwd(), './src/lib/index.js')
 		}
 	}
 });
