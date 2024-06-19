@@ -1,0 +1,22 @@
+:root {
+	--colors-primary: var(--pallette-primary-30);
+	--colors-primary-contrast: var(--pallette-primary-100);
+	--colors-container-primary: var(--pallette-primary-90);
+	--colors-container-primary-contrast: var(--pallette-primary-10);
+	--colors-secondary: var(--pallette-secondary-30);
+	--colors-secondary-contrast: var(--pallette-secondary-100);
+	--colors-container-secondary: var(--pallette-secondary-90);
+	--colors-container-secondary-contrast: var(--pallette-secondary-10);
+	--colors-tertiary: var(--pallette-tertiary-30);
+	--colors-tertiary-contrast: var(--pallette-tertiary-100);
+	--colors-container-tertiary: var(--pallette-tertiary-90);
+	--colors-container-tertiary-contrast: var(--pallette-tertiary-10);
+	--colors-error: var(--pallette-error-30);
+	--colors-error-contrast: var(--pallette-error-100);
+	--colors-container-error: var(--pallette-error-90);
+	--colors-container-error-contrast: var(--pallette-error-20);
+	--colors-neutral: var(--pallette-neutral-30);
+	--colors-neutral-contrast: var(--pallette-neutral-100);
+	--colors-container-neutral: var(--pallette-neutral-90);
+	--colors-container-neutral-contrast: var(--pallette-neutral-10);
+}
