@@ -1,0 +1,26 @@
+:root {
+	--typography-typeface-hero-sm-font-family: var(--typography-font-stack);
+	--typography-typeface-hero-sm-font-weight: var(--typography-font-weight-xs);
+	--typography-typeface-hero-md-font-family: var(--typography-font-stack);
+	--typography-typeface-hero-md-font-weight: var(--typography-font-weight-xs);
+	--typography-typeface-hero-lg-font-family: var(--typography-font-stack);
+	--typography-typeface-hero-lg-font-weight: var(--typography-font-weight-xs);
+	--typography-typeface-title-sm-font-family: var(--typography-font-stack);
+	--typography-typeface-title-sm-font-weight: var(--typography-font-weight-sm);
+	--typography-typeface-title-md-font-family: var(--typography-font-stack);
+	--typography-typeface-title-md-font-weight: var(--typography-font-weight-sm);
+	--typography-typeface-title-lg-font-family: var(--typography-font-stack);
+	--typography-typeface-title-lg-font-weight: var(--typography-font-weight-sm);
+	--typography-typeface-body-sm-font-family: var(--typography-font-stack);
+	--typography-typeface-body-sm-font-weight: var(--typography-font-weight-md);
+	--typography-typeface-body-md-font-family: var(--typography-font-stack);
+	--typography-typeface-body-md-font-weight: var(--typography-font-weight-md);
+	--typography-typeface-body-lg-font-family: var(--typography-font-stack);
+	--typography-typeface-body-lg-font-weight: var(--typography-font-weight-md);
+	--typography-typeface-label-sm-font-family: var(--typography-font-stack);
+	--typography-typeface-label-sm-font-weight: var(--typography-font-weight-xl);
+	--typography-typeface-label-md-font-family: var(--typography-font-stack);
+	--typography-typeface-label-md-font-weight: var(--typography-font-weight-xl);
+	--typography-typeface-label-lg-font-family: var(--typography-font-stack);
+	--typography-typeface-label-lg-font-weight: var(--typography-font-weight-xl);
+}

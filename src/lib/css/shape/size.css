@@ -1,0 +1,10 @@
+:root {
+	--shape-size-none: 0px;
+	--shape-size-xs: 4px;
+	--shape-size-sm: 8px;
+	--shape-size-md: 16px;
+	--shape-size-lg: 24px;
+	--shape-size-xl: 28px;
+	--shape-size-pill: 9999px;
+	--shape-size-round: 50%;
+}

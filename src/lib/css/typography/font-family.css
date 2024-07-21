@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Railway';
+	font-weight: var(--typography-font-weight-xs);
+	src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Railway';
+	font-weight: var(--typography-font-weight-sm);
+	src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Railway';
+	font-weight: var(--typography-font-weight-md);
+	src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Railway';
+	font-weight: var(--typography-font-weight-lg);
+	src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Railway';
+	font-weight: var(--typography-font-weight-xl);
+	font-weight: 600;
+	src: url('./fonts/Raleway/Raleway-VariableFont_wght.ttf') format('ttf');
+}
+
+:root {
+	--typography-font-family-brand: 'Railway';
+	--typography-font-family-fallback: 'system-ui';
+	--typography-font-stack: var(--typography-font-family-brand),
+		var(--typography-font-family-fallback);
+}

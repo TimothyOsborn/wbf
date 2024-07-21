@@ -1,0 +1,10 @@
+.elevation-effect {
+	--elevation-box-shadow-color: var(--_elevation-box-shadow-color, var(--pallette-neutral-40));
+	transition-property: box-shadow, scale;
+	transition-duration: 0.4s;
+}
+.elevation-effect:active {
+	transition-property: box-shadow, scale;
+	transition-duration: 0.1s;
+	scale: 98%;
+}

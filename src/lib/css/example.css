@@ -1,0 +1,300 @@
+:root {
+	--seed-color: hsl(215.42deg 100% 50%);
+	--pallette-primary-0: lch(from var(--seed-color) 0% 15 h);
+	--pallette-primary-10: lch(from var(--seed-color) 10% 30 h);
+	--pallette-primary-20: lch(from var(--seed-color) 20% 60 h);
+	--pallette-primary-30: lch(from var(--seed-color) 30% 60 h);
+	--pallette-primary-40: lch(from var(--seed-color) 40% 60 h);
+	--pallette-primary-50: lch(from var(--seed-color) 50% 60 h);
+	--pallette-primary-60: lch(from var(--seed-color) 60% 60 h);
+	--pallette-primary-70: lch(from var(--seed-color) 70% 60 h);
+	--pallette-primary-80: lch(from var(--seed-color) 80% 60 h);
+	--pallette-primary-90: lch(from var(--seed-color) 90% 30 h);
+	--pallette-primary-100: lch(from var(--seed-color) 100% 15 h);
+	--pallette-secondary-0: lch(from var(--seed-color) 0% 7.5 calc(h - 45));
+	--pallette-secondary-10: lch(from var(--seed-color) 10% 15 calc(h - 45));
+	--pallette-secondary-20: lch(from var(--seed-color) 20% 30 calc(h - 45));
+	--pallette-secondary-30: lch(from var(--seed-color) 30% 30 calc(h - 45));
+	--pallette-secondary-40: lch(from var(--seed-color) 40% 30 calc(h - 45));
+	--pallette-secondary-50: lch(from var(--seed-color) 50% 30 calc(h - 45));
+	--pallette-secondary-60: lch(from var(--seed-color) 60% 30 calc(h - 45));
+	--pallette-secondary-70: lch(from var(--seed-color) 70% 30 calc(h - 45));
+	--pallette-secondary-80: lch(from var(--seed-color) 80% 30 calc(h - 45));
+	--pallette-secondary-90: lch(from var(--seed-color) 90% 15 calc(h - 45));
+	--pallette-secondary-100: lch(from var(--seed-color) 100% 7.5 calc(h - 45));
+	--pallette-tertiary-0: lch(from var(--seed-color) 0% 10 calc(h + 45));
+	--pallette-tertiary-10: lch(from var(--seed-color) 10% 20 calc(h + 45));
+	--pallette-tertiary-20: lch(from var(--seed-color) 20% 40 calc(h + 45));
+	--pallette-tertiary-30: lch(from var(--seed-color) 30% 40 calc(h + 45));
+	--pallette-tertiary-40: lch(from var(--seed-color) 40% 40 calc(h + 45));
+	--pallette-tertiary-50: lch(from var(--seed-color) 50% 40 calc(h + 45));
+	--pallette-tertiary-60: lch(from var(--seed-color) 60% 40 calc(h + 45));
+	--pallette-tertiary-70: lch(from var(--seed-color) 70% 40 calc(h + 45));
+	--pallette-tertiary-80: lch(from var(--seed-color) 80% 40 calc(h + 45));
+	--pallette-tertiary-90: lch(from var(--seed-color) 90% 20 calc(h + 45));
+	--pallette-tertiary-100: lch(from var(--seed-color) 100% 10 cacl(h + 45));
+	--pallette-neutral-0: lch(from var(--seed-color) 0% 5 calc(h / 18 + 80));
+	--pallette-neutral-5: lch(from var(--seed-color) 5% 5 calc(h / 18 + 80));
+	--pallette-neutral-10: lch(from var(--seed-color) 10% 5 calc(h / 18 + 220));
+	--pallette-neutral-15: lch(from var(--seed-color) 15% 5 calc(h / 18 + 220));
+	--pallette-neutral-20: lch(from var(--seed-color) 20% 5 calc(h / 18 + 220));
+	--pallette-neutral-30: lch(from var(--seed-color) 30% 5 calc(h / 18 + 220));
+	--pallette-neutral-40: var(
+		--_box-shadow-color,
+		lch(from var(--seed-color) 40% 5 calc(h / 18 + 220))
+	);
+	--pallette-neutral-50: lch(from var(--seed-color) 50% 5 calc(h / 18 + 220));
+	--pallette-neutral-60: lch(from var(--seed-color) 60% 5 calc(h / 18 + 220));
+	--pallette-neutral-70: lch(from var(--seed-color) 70% 5 calc(h / 18 + 220));
+	--pallette-neutral-80: lch(from var(--seed-color) 80% 5 calc(h / 18 + 220));
+	--pallette-neutral-85: lch(from var(--seed-color) 85% 5 calc(h / 18 + 220));
+	--pallette-neutral-90: lch(from var(--seed-color) 90% 5 calc(h / 18 + 220));
+	--pallette-neutral-95: lch(from var(--seed-color) 95% 5 calc(h / 18 + 220));
+	--pallette-neutral-100: lch(from var(--seed-color) 100% 5 calc(h / 18 + 220));
+	--pallette-error-0: lch(from var(--seed-color) 0% 20 calc(h / 72 + 32));
+	--pallette-error-10: lch(from var(--seed-color) 10% 40 calc(h / 72 + 32));
+	--pallette-error-20: lch(from var(--seed-color) 20% 80 calc(h / 72 + 32));
+	--pallette-error-30: lch(from var(--seed-color) 30% 80 calc(h / 72 + 32));
+	--pallette-error-40: lch(from var(--seed-color) 40% 80 calc(h / 72 + 32));
+	--pallette-error-50: lch(from var(--seed-color) 50% 80 calc(h / 72 + 32));
+	--pallette-error-60: lch(from var(--seed-color) 60% 80 calc(h / 72 + 32));
+	--pallette-error-70: lch(from var(--seed-color) 70% 80 calc(h / 72 + 32));
+	--pallette-error-80: lch(from var(--seed-color) 80% 80 calc(h / 72 + 32));
+	--pallette-error-90: lch(from var(--seed-color) 90% 40 calc(h / 72 + 32));
+	--pallette-error-100: lch(from var(--seed-color) 100% 20 calc(h / 72 + 32));
+
+	--colors-primary: var(--pallette-primary-30);
+	--colors-primary-contrast: var(--pallette-primary-100);
+	--colors-container-primary: var(--pallette-primary-90);
+	--colors-container-primary-contrast: var(--pallette-primary-10);
+	--colors-secondary: var(--pallette-secondary-30);
+	--colors-secondary-contrast: var(--pallette-secondary-100);
+	--colors-container-secondary: var(--pallette-secondary-90);
+	--colors-container-secondary-contrast: var(--pallette-secondary-10);
+	--colors-tertiary: var(--pallette-tertiary-30);
+	--colors-tertiary-contrast: var(--pallette-tertiary-100);
+	--colors-container-tertiary: var(--pallette-tertiary-90);
+	--colors-container-tertiary-contrast: var(--pallette-tertiary-10);
+	--colors-error: var(--pallette-error-40);
+	--colors-error-contrast: var(--pallette-error-100);
+	--colors-container-error: var(--pallette-error-90);
+	--colors-container-error-contrast: var(--pallette-error-30);
+	--colors-container-neutral: var(--pallette-neutral-90);
+	--colors-container-neutral-contrast: var(--pallette-neutral-10);
+	--colors-surface-lowest: var(--pallette-neutral-100);
+	--colors-surface-lowest-contrast: var(--pallette-neutral-10);
+	--colors-surface-low: var(--pallette-neutral-95);
+	--colors-surface-low-contrast: var(--pallette-neutral-10);
+	--colors-surface: var(--pallette-neutral-90);
+	--colors-surface-contrast: var(--pallette-neutral-10);
+	--colors-surface-high: var(--pallette-neutral-85);
+	--colors-surface-high-contrast: var(--pallette-neutral-10);
+	--colors-surface-highest: var(--pallette-neutral-80);
+	--colors-surface-highest-contrast: var(--pallette-neutral-10);
+
+	--shape-size-none: 0px;
+	--shape-size-xs: 4px;
+	--shape-size-sm: 8px;
+	--shape-size-md: 16px;
+	--shape-size-lg: 24px;
+	--shape-size-xl: 28px;
+	--shape-size-full: 9999px;
+	--shape-n-xs: var(--shape-size-xs) var(--shape-size-xs) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-xs: var(--shape-size-none) var(--shape-size-xs) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-xs: var(--shape-size-none) var(--shape-size-xs) var(--shape-size-xs)
+		var(--shape-size-none);
+	--shape-se-xs: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xs)
+		var(--shape-size-none);
+	--shape-s-xs: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xs)
+		var(--shape-size-xs);
+	--shape-sw-xs: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xs);
+	--shape-w-xs: var(--shape-size-xs) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xs);
+	--shape-nw-xs: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-n-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-se-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-s-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-sw-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-w-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-nw-sm: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-n-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-md: var(--shape-size-sm) var(--shape-size-sm) var(--shape-size-sm) var(--shape-size-sm);
+	--shape-se-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-s-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-sw-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-w-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-nw-md: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-n-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-se-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-s-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-sw-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-w-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-nw-lg: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-n-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-se-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-s-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-sw-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-w-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-nw-xl: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-n-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-ne-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-e-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-se-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-s-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-sw-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-w-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+	--shape-nw-full: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+
+.elevation {
+	--_elevation-box-shadow-color: var(--elevation-box-shadow-color, var(--pallette-neutral-40));
+	--elevation-level-0: 0px 0px 0px 0px var(--_elevation-box-shadow-color);
+	--elevation-level-1: 0px 1px 3px 1px var(--_elevation-box-shadow-color);
+	--elevation-level-2: 0px 3px 6px 2px var(--_elevation-box-shadow-color);
+	--elevation-level-3: 0px 5px 9px 3px var(--_elevation-box-shadow-color);
+	--elevation-level-4: 0px 7px 12px 4px var(--_elevation-box-shadow-color);
+	--elevation-level-5: 0px 9px 15px 5px var(--_elevation-box-shadow-color);
+}
+
+.block {
+	height: 40px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.one {
+	background-color: var(--colors-primary);
+	color: var(--colors-primary-contrast);
+	box-shadow: var(--elevation-level-0);
+}
+.two {
+	background-color: var(--colors-container-primary);
+	color: var(--colors-container-primary-contrast);
+	box-shadow: var(--elevation-level-1);
+	transition: box-shadow 0.4s;
+}
+.two:active {
+	--elevation-box-shadow-color: var(--colors-container-primary);
+	box-shadow: var(--elevation-level-0);
+	transition: box-shadow 0.1s;
+	scale: 99%;
+}
+.three {
+	background-color: var(--pallette-secondary-30);
+	color: var(--pallette-secondary-100);
+	box-shadow: var(--elevation-level-2);
+	transition: box-shadow 0.4s;
+}
+.three:active {
+	--elevation-box-shadow-color: var(--colors-secondary);
+	box-shadow: var(--elevation-level-1);
+	transition: box-shadow 0.1s;
+	scale: 98%;
+}
+.four {
+	background-color: var(--colors-container-secondary);
+	color: var(--colors-container-secondary-contrast);
+	box-shadow: var(--elevation-level-3);
+	transition: box-shadow 0.4s;
+}
+.four:active {
+	--elevation-box-shadow-color: var(--colors-container-secondary);
+	box-shadow: var(--elevation-level-1);
+	transition: box-shadow 0.1s;
+	scale: 97%;
+}
+.five {
+	background-color: var(--colors-tertiary);
+	color: var(--colors-tertiary-contrast);
+	box-shadow: var(--elevation-level-4);
+	transition: all 0.4s;
+	border-radius: var(--shape-e-md);
+}
+.five:active {
+	--elevation-box-shadow-color: var(--colors-tertiary);
+	box-shadow: var(--elevation-level-1);
+	transition: all 0.1s;
+	scale: 98%;
+}
+.six {
+	background-color: var(--colors-container-tertiary);
+	color: var(--colors-container-tertiary-contrast);
+	box-shadow: var(--elevation-level-5);
+	transition: box-shadow 0.4s;
+}
+.six:active {
+	--elevation-box-shadow-color: var(--colors-container-tertiary);
+	box-shadow: var(--elevation-level-1);
+	scale: 98%;
+	transition: box-shadow 0.1s;
+}
+
+.seven {
+	background-color: var(--colors-error);
+	color: var(--colors-error-contrast);
+}
+.eight {
+	background-color: var(--colors-container-error);
+	color: var(--colors-container-error-contrast);
+}
+.nine {
+	background-color: var(--colors-neutral);
+	color: var(--colors-neutral-contrast);
+}
+.ten {
+	background-color: var(--colors-container-neutral);
+	color: var(--colors-container-neutral-contrast);
+}

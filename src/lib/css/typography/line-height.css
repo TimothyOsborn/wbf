@@ -1,0 +1,11 @@
+:root {
+	--typography-line-height-100: 1.375rem;
+	--typography-line-height-200: 1.5rem;
+	--typography-line-height-300: 1.625rem;
+	--typography-line-height-400: 1.75rem;
+	--typography-line-height-500: 2.5rem;
+	--typography-line-height-600: 3rem;
+	--typography-line-height-700: 3.5rem;
+	--typography-line-height-800: 3.75rem;
+	--typography-line-height-900: 4rem;
+}

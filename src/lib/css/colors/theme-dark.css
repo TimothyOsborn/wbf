@@ -13,12 +13,22 @@
 		--colors-container-tertiary: var(--pallette-tertiary-30);
 		--colors-container-tertiary-contrast: var(--pallette-tertiary-90);
 		--colors-error: var(--pallette-error-80);
-		--colors-error-contrast: var(--pallette-error-20);
+		--colors-error-contrast: var(--pallette-error-10);
 		--colors-container-error: var(--pallette-error-30);
-		--colors-container-error-contrast: var(--pallette-error-90);
+		--colors-container-error-contrast: var(--pallette-error-100);
 		--colors-neutral: var(--pallette-neutral-80);
 		--colors-neutral-contrast: var(--pallette-neutral-20);
 		--colors-container-neutral: var(--pallette-neutral-30);
 		--colors-container-neutral-contrast: var(--pallette-neutral-90);
+		--colors-surface-lowest: var(--pallette-neutral-0);
+		--colors-surface-lowest-contrast: var(--pallette-neutral-100);
+		--colors-surface-low: var(--pallette-neutral-5);
+		--colors-surface-low-contrast: var(--pallette-neutral-100);
+		--colors-surface: var(--pallette-neutral-10);
+		--colors-surface-contrast: var(--pallette-neutral-100);
+		--colors-surface-high: var(--pallette-neutral-15);
+		--colors-surface-high-contrast: var(--pallette-neutral-100);
+		--colors-surface-highest: var(--pallette-neutral-20);
+		--colors-surface-highest-contrast: var(--pallette-neutral-100);
 	}
 }

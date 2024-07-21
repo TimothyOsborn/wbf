@@ -1,18 +1,29 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import type { HTMLButtonAttributes } from 'svelte/elements';
+	import type { Size } from '../index.js';
 
 	type ButtonProps = {
 		children: Snippet;
 		href?: string;
 		action?: any;
+		primary?: string;
+		size?: Size;
+		shape?: string;
 		type?: HTMLButtonAttributes['type'];
 	};
 
-	let { children, href, action, type = 'button' }: ButtonProps = $props();
+	let {
+		children,
+		href,
+		action,
+		size = 'md',
+		shape = 'none',
+		type = 'button',
+		color = 'primary'
+	}: ButtonProps = $props();
 
-	let buttonClasses: string =
-		'flex ai-center bg-transparent color-primary padding-md border br-md jc-center min-width-120 text-decoration-none';
+	let buttonClasses: string = `elevation-effect elevation-2 typography-label-${size} colors-${color} ${size}`;
 </script>
 
 {#if href}
@@ -32,24 +43,23 @@
 <style>
 	a,
 	button {
-		display: inline-flex;
-		box-sizing: border-box;
-		align-items: center;
-		background-color: transparent;
-		color: #0e9f6e;
-		padding: 8px 16px;
-		border: 2px solid #0e9f6e;
-		font-family:
-			system-ui,
-			'Open Sans',
-			-apple-system,
-			sans-serif;
-		font-size: 16px;
-		line-height: 24px;
-		justify-content: center;
-		border-radius: 8px;
+		display: inline-block;
+		padding: var(--_button-padding-vertical, 8px) var(--_button-padding-horizontal, 16px);
 		text-decoration: none;
-		transition: all 0.5s;
-		box-shadow: 0px 1px 3px 0px #888;
+		border: none;
+		appearance: none;
+
+		&.sm {
+			--_button-padding-vertical: 6px;
+			--_button-padding-horizontal: 12px;
+		}
+		&.lg {
+			--_button-padding-vertical: 10px;
+			--_button-padding-horizontal: 20px;
+		}
+	}
+	a:active,
+	button:active {
+		--_elevation-box-shadow-color: var(--colors-primary);
 	}
 </style>

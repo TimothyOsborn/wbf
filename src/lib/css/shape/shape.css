@@ -1,0 +1,265 @@
+.shape-none {
+	border-radius: var(--shape-size-none);
+}
+.shape-xs {
+	border-radius: var(--shape-size-xs);
+}
+.shape-sm {
+	border-radius: var(--shape-size-sm);
+}
+.shape-md {
+	border-radius: var(--shape-size-md);
+}
+.shape-lg {
+	border-radius: var(--shape-size-lg);
+}
+.shape-xl {
+	border-radius: var(--shape-size-xl);
+}
+.shape-pill {
+	border-radius: var(--shape-size-pill);
+}
+.shape-round {
+	border-radius: var(--shape-size-round);
+}
+.shape-none-n {
+	border-radius: var(--shape-size-none);
+}
+/* North */
+.shape-xs-n {
+	border-radius: var(--shape-size-xs) var(--shape-size-xs) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-sm-n {
+	border-radius: var(--shape-size-sm) var(--shape-size-sm) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-md-n {
+	border-radius: var(--shape-size-md) var(--shape-size-md) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-lg-n {
+	border-radius: var(--shape-size-lg) var(--shape-size-lg) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-xl-n {
+	border-radius: var(--shape-size-xl) var(--shape-size-xl) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-pill-n {
+	border-radius: var(--shape-size-pill) var(--shape-size-pill) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-round-n {
+	border-radius: var(--shape-size-round) var(--shape-size-round) var(--shape-size-none)
+		var(--shape-size-none);
+}
+
+/* North East */
+.shape-xs-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-xs) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-sm-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-sm) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-md-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-md) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-lg-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-lg) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-xl-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-xl) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-pill-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-pill) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-round-ne {
+	border-radius: var(--shape-size-none) var(--shape-size-round) var(--shape-size-none)
+		var(--shape-size-none);
+}
+/* East */
+.shape-xs-e {
+	border-radius: var(--shape-size-none) var(--shape-size-xs) var(--shape-size-xs)
+		var(--shape-size-none);
+}
+.shape-sm-e {
+	border-radius: var(--shape-size-none) var(--shape-size-sm) var(--shape-size-sm)
+		var(--shape-size-none);
+}
+.shape-md-e {
+	border-radius: var(--shape-size-none) var(--shape-size-md) var(--shape-size-md)
+		var(--shape-size-none);
+}
+.shape-lg-e {
+	border-radius: var(--shape-size-none) var(--shape-size-lg) var(--shape-size-lg)
+		var(--shape-size-none);
+}
+.shape-xl-e {
+	border-radius: var(--shape-size-none) var(--shape-size-xl) var(--shape-size-xl)
+		var(--shape-size-none);
+}
+.shape-pill-e {
+	border-radius: var(--shape-size-none) var(--shape-size-pill) var(--shape-size-pill)
+		var(--shape-size-none);
+}
+.shape-round-e {
+	border-radius: var(--shape-size-none) var(--shape-size-round) var(--shape-size-round)
+		var(--shape-size-none);
+}
+
+/* South East */
+.shape-xs-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xs)
+		var(--shape-size-none);
+}
+.shape-sm-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-sm)
+		var(--shape-size-none);
+}
+.shape-md-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-md)
+		var(--shape-size-none);
+}
+.shape-lg-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-lg)
+		var(--shape-size-none);
+}
+.shape-xl-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xl)
+		var(--shape-size-none);
+}
+.shape-pill-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-pill)
+		var(--shape-size-none);
+}
+.shape-round-se {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-round)
+		var(--shape-size-none);
+}
+
+/* South */
+.shape-xs-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xs)
+		var(--shape-size-xs);
+}
+.shape-sm-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-sm)
+		var(--shape-size-sm);
+}
+.shape-md-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-md)
+		var(--shape-size-md);
+}
+.shape-lg-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-lg)
+		var(--shape-size-lg);
+}
+.shape-xl-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-xl)
+		var(--shape-size-xl);
+}
+.shape-pill-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-pill)
+		var(--shape-size-pill);
+}
+.shape-round-s {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-round)
+		var(--shape-size-round);
+}
+
+/* South West */
+.shape-xs-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xs);
+}
+.shape-sm-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-sm);
+}
+.shape-md-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-md);
+}
+.shape-lg-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-lg);
+}
+.shape-xl-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xl);
+}
+.shape-pill-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-pill);
+}
+.shape-round-sw {
+	border-radius: var(--shape-size-none) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-round);
+}
+
+/* West */
+.shape-xs-w {
+	border-radius: var(--shape-size-xs) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xs);
+}
+.shape-sm-w {
+	border-radius: var(--shape-size-sm) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-sm);
+}
+.shape-md-w {
+	border-radius: var(--shape-size-md) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-md);
+}
+.shape-lg-w {
+	border-radius: var(--shape-size-lg) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-lg);
+}
+.shape-xl-w {
+	border-radius: var(--shape-size-xl) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-xl);
+}
+.shape-pill-w {
+	border-radius: var(--shape-size-pill) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-pill);
+}
+.shape-round-w {
+	border-radius: var(--shape-size-round) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-round);
+}
+
+/* North West */
+.shape-xs-nw {
+	border-radius: var(--shape-size-xs) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-sm-nw {
+	border-radius: var(--shape-size-sm) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-md-nw {
+	border-radius: var(--shape-size-md) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-lg-nw {
+	border-radius: var(--shape-size-lg) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-xl-nw {
+	border-radius: var(--shape-size-xl) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-pill-nw {
+	border-radius: var(--shape-size-pill) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}
+.shape-round-nw {
+	border-radius: var(--shape-size-round) var(--shape-size-none) var(--shape-size-none)
+		var(--shape-size-none);
+}

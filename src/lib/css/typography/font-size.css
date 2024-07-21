@@ -1,0 +1,11 @@
+:root {
+	--typography-font-size-100: 0.875rem;
+	--typography-font-size-200: 1rem;
+	--typography-font-size-300: 1.125rem;
+	--typography-font-size-400: 1.25rem;
+	--typography-font-size-500: 2rem;
+	--typography-font-size-600: 2.5rem;
+	--typography-font-size-700: 3rem;
+	--typography-font-size-800: 3.25rem;
+	--typography-font-size-900: 3.5rem;
+}

@@ -1,0 +1,54 @@
+.colors-primary {
+	background-color: var(--colors-primary);
+	color: var(--colors-primary-contrast);
+}
+.colors-secondary {
+	background-color: var(--colors-secondary);
+	color: var(--colors-secondary-contrast);
+}
+.colors-tertiary {
+	background-color: var(--colors-tertiary);
+	color: var(--colors-tertiary-contrast);
+}
+.colors-error {
+	background-color: var(--colors-error);
+	color: var(--colors-error-contrast);
+}
+
+.colors-surface-lowest {
+	background-color: var(--colors-surface-lowest);
+	color: var(--colors-surface-lowest-contrast);
+}
+.colors-surface-low {
+	background-color: var(--colors-surface-low);
+	color: var(--colors-surface-low-contrast);
+}
+.colors-surface {
+	background-color: var(--colors-surface);
+	color: var(--colors-surface-contrast);
+}
+.colors-surface-high {
+	background-color: var(--colors-surface-high);
+	color: var(--colors-surface-high-contrast);
+}
+.colors-surface-highest {
+	background-color: var(--colors-surface-highest);
+	color: var(--colors-surface-highest-contrast);
+}
+
+.colors-container-primary {
+	background-color: var(--colors-container-primary);
+	color: var(--colors-container-primary-contrast);
+}
+.colors-container-secondary {
+	background-color: var(--colors-container-secondary);
+	color: var(--colors-container-secondary-contrast);
+}
+.colors-container-tertiary {
+	background-color: var(--colors-container-tertiary);
+	color: var(--colors-container-tertiary-contrast);
+}
+.colors-container-error {
+	background-color: var(--colors-container-error);
+	color: var(--colors-container-error-contrast);
+}

@@ -1,0 +1,7 @@
+:root {
+	--typography-letter-spacing-xs: -0.02rem;
+	--typography-letter-spacing-sm: -0.01rem;
+	--typography-letter-spacing-md: 0rem;
+	--typography-letter-spacing-lg: 0.01rem;
+	--typography-letter-spacing-xl: 0.02rem;
+}

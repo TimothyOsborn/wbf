@@ -1,0 +1,21 @@
+.typography-hero-sm {
+	font-family: var(--typography-typeface-hero-sm-font-family);
+	font-weight: var(--typography-typeface-hero-sm-font-weight);
+	font-size: var(--typography-typescale-hero-sm-font-size);
+	letter-spacing: var(--typography-typescale-hero-sm-letter-spacing);
+	line-height: var(--typeography-typescale-hero-sm-line-height);
+}
+.typography-hero-md {
+	font-family: var(--typography-typeface-hero-md-font-family);
+	font-weight: var(--typography-typeface-hero-md-font-weight);
+	font-size: var(--typography-typescale-hero-md-font-size);
+	letter-spacing: var(--typography-typescale-hero-md-letter-spacing);
+	line-height: var(--typeography-typescale-hero-md-line-height);
+}
+.typography-hero-lg {
+	font-family: var(--typography-typeface-hero-lg-font-family);
+	font-weight: var(--typography-typeface-hero-lg-font-weight);
+	font-size: var(--typography-typescale-hero-lg-font-size);
+	letter-spacing: var(--typography-typescale-hero-lg-letter-spacing);
+	line-height: var(--typeography-typescale-hero-lg-line-height);
+}
